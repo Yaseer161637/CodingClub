@@ -1,0 +1,239 @@
+@font-face{ 
+	src:url('fonts/Righteous/Righteous-Regular.ttf');
+	font-family: Righteous;
+}
+@font-face{
+	src:url(fonts/1/static/JosefinSans-Bold.ttf);
+	font-family: JosefinSans;
+}
+@font-face
+{
+	src:url(fonts/Acme/Acme-Regular.ttf);
+	font-family: Acme;
+}
+header{
+	background-image: linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(src/3.jpeg);
+	height: 100vh;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.logo{
+	height: 100px;
+	width: 100px;
+	margin-left: 10px;
+}
+.list1
+{
+	float: right;
+	margin-top: 40px;
+}
+.list2
+{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 30px;
+}
+.list-link
+{
+	text-decoration: none;
+	color: white;
+	font-family: Righteous,Georgia;
+	font-size: 26px;
+	letter-spacing: -2px;
+	word-spacing: 2px;
+}
+a.list-link:hover
+{
+	border-bottom: 3px solid orange;
+	margin-bottom: 8px;
+}
+.head3{
+	margin-top: 160px;
+	margin-left: 50px;
+	font-family: 
+}
+.head3-content,.head3-links
+{
+	color: white;
+	text-decoration: none;
+	font-family:JosefinSans,monospace;
+}
+.head3-links
+{
+	width: 550px;
+	height: 250px;
+	padding: 20px;
+	margin-left: 25px;
+	box-shadow: 2px 2px #b8731a;
+	line-height: 50px;
+	font-size: 25px;
+	border-radius: 50px;
+	border :2px solid orange;
+}
+a.head3-links:hover
+{
+	background-color:#e67300;
+}
+.section1
+{
+	background-image: linear-gradient(to right, rgba(0,0,0,.5),rgba(0,0,0,.5)),url(src/4.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height:120vh;	
+}
+.img-nav
+{
+	background-color: white;
+	height: 55vh;
+	display: block;
+	background-position:bottom;
+}
+.head4
+{
+	border-width: 0px 0px 3px 0px;
+	border-color: orange;
+	border-style: solid;
+	padding-bottom: 10px;
+	width: 300px;
+}
+.product-image
+{
+	height: 250px;
+	width: 250px;
+	margin:10px 30px 10px 30px;
+}
+.product-image:hover
+{
+	height: 300px;
+	width: 300px;
+
+}
+.section2
+{
+	background-image: linear-gradient(to right, rgba(0,0,0,.5),rgba(0,0,0,.5)),url(src/7.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 110vh;
+	background-attachment: fixed;
+}
+.tech
+{
+	background-color: white;
+	height: 55vh;
+	display: block;	
+}
+.head5
+{
+	border-width: 0px 0px 3px 0px;
+	border-color: orange;
+	border-style: solid;
+	padding-bottom: 10px;
+	width: 550px;
+}
+.tech-img{
+	width: 250px;
+	height: 250px;
+	margin:10px 30px 10px 30px;
+	border-radius: 30px;
+}
+.tech-img:hover{
+	width: 300px;
+	height: 300px;
+}
+.section3{
+	background-image: linear-gradient(to bottom, rgba(15, 12, 41, 0.5),rgba(48, 43, 99, 0.5)),url(src/11.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 110vh;
+	background-repeat: no-repeat;
+}
+.required
+{
+	height: 58vh;
+	background-color: rgb(233, 239, 242);
+	display: block;
+}
+.head6{
+	border-width: 0px 0px 3px 0px;
+	border-color: orange;
+	border-style: solid;
+	padding-bottom: 10px;
+	width: 400px;
+	margin-left: 75vh;	
+}
+input[type="text"]
+{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+	width: 205vh;	
+	height: 24px;
+}
+textarea
+{
+	font-size: 20px;
+	width: 206vh;
+	height: 60px;
+	text-align: center;
+	margin-top: 15px;
+
+}
+.file-con
+{
+
+	font-size: 20px;
+}
+input[type="file"]
+{
+	
+	border-radius: 20px;
+	width: 20vh;
+}
+input[type="submit"]
+{
+	border-radius: 25px;
+	border:3px solid orange;
+	width: 30vh;
+	font-family:Righteous;
+	font-size: 20px; 
+	padding:8px;
+	margin-bottom: 20px;
+	margin-left: 88vh;
+}
+.foot-div
+{
+	background-image: radial-gradient( circle 369px at 10% 20%,  rgba(245,76,76,0.80) 0.7%, rgba(243,203,129,0.9) 86.1% );
+	height: 10vh;
+	padding-top: 10px;
+}
+.footer1
+{
+	font-size: 20px;
+	margin-right: 130vh;
+	padding-left: 10vh;
+}
+.fonticon
+{
+letter-spacing: 10px;	
+color: black;
+}
+.add1,.add2
+{
+	width: 50vh;
+	padding-left: 10vh;
+}
+.address
+{
+	display: flex;
+	margin-left: 40vh;
+	margin-top: 10vh;
+}
+.head4,.head5,.head6
+{
+	font-family:Acme;
+	font-size: 30px; 
+}
